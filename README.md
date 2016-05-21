@@ -29,3 +29,5 @@
 7. Remove duplication
 
 8. Clean up the tests for readbility
+
+9. Can we make the tests faster, convert to Logic Tests
