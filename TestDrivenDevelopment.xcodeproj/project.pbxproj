@@ -12,7 +12,7 @@
 		8CDB65961CEB1031004597D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDB65941CEB1031004597D2 /* Main.storyboard */; };
 		8CDB65981CEB1031004597D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CDB65971CEB1031004597D2 /* Assets.xcassets */; };
 		8CDB659B1CEB1031004597D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDB65991CEB1031004597D2 /* LaunchScreen.storyboard */; };
-		8CE797401CEF8E9A006764DA /* InstrumentCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7973F1CEF8E9A006764DA /* InstrumentCalculatorTests.swift */; };
+		8CDE1B011DF80B7E007FB26F /* TestDrivenDevelopmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDE1B001DF80B7E007FB26F /* TestDrivenDevelopmentTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 		8CDB65A11CEB1031004597D2 /* TestDrivenDevelopmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDrivenDevelopmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CDB65A71CEB1031004597D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CDE1AFF1DF80AEA007FB26F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8CE7973F1CEF8E9A006764DA /* InstrumentCalculatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentCalculatorTests.swift; sourceTree = "<group>"; };
+		8CDE1B001DF80B7E007FB26F /* TestDrivenDevelopmentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDrivenDevelopmentTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				8CDB65A71CEB1031004597D2 /* Info.plist */,
-				8CE7973F1CEF8E9A006764DA /* InstrumentCalculatorTests.swift */,
+				8CDE1B001DF80B7E007FB26F /* TestDrivenDevelopmentTests.swift */,
 			);
 			path = TestDrivenDevelopmentTests;
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE797401CEF8E9A006764DA /* InstrumentCalculatorTests.swift in Sources */,
+				8CDE1B011DF80B7E007FB26F /* TestDrivenDevelopmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
