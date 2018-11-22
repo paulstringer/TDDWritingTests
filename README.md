@@ -1,4 +1,5 @@
-#STEPS
+# STEPS
+
 *A reproduction of an excercise taken from Working with Legacy Code, Chapter 8, Michael Feathers that introduces TDD.*
 
 1. Write a failing test for the first moment about point
