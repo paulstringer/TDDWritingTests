@@ -11,17 +11,17 @@ This excercise is based on [a simple statistical calculation](https://www.statis
 		
 	Statistic Moment expression for second moment about 1.0
 	
-	```
-	var numerator = 0.0;
+```
+var numerator = 0.0;
 
-        elements.forEach { (element) in
+elements.forEach { (element) in
 
-            numerator += pow(element - point, 1.0)
+	numerator += pow(element - point, 1.0)
 
-        }
+}
 
-        return numerator / Double(elements.count)
-	```
+return numerator / Double(elements.count)
+```
 
 2. Make it Pass
 
