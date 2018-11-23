@@ -2,9 +2,26 @@
 
 *A reproduction of an excercise taken from Working with Legacy Code, Chapter 8, Michael Feathers that introduces TDD.*
 
+This excercise is based on [a simple statistical calculation](https://www.statisticshowto.datasciencecentral.com/what-is-a-moment/), the details of which are not particularly relevant to the excercise.
+
 1. Write a failing test for the first moment about point
 
 	> Given adding elements 1.0 and 2.0. The first moment about point 2.0 should be -0.5.
+	
+		
+	Statistic Moment expression for second moment about 1.0
+	
+	```
+	var numerator = 0.0;
+
+        elements.forEach { (element) in
+
+            numerator += pow(element - point, 1.0)
+
+        }
+
+        return numerator / Double(elements.count)
+	```
 
 2. Make it Pass
 
@@ -17,13 +34,6 @@
 5. Write a failing test for the second moment about point
 
 	> Given adding elements 1.0 and 2.0. The second moment about point 2.0 should be 0.5
-
-	
-	Nth Statistic Moment expression for second moment about 2.0
-	```
-	numerator += Math.pow(element - point, 2.0)
-	```
-
 	
 6. Make it Pass
 
